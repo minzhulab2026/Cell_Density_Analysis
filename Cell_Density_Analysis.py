@@ -715,7 +715,7 @@ class Window(QWidget):
                             upper_layout, 'Frame:')
         self.channel_box = setup_combobox(
                             self.select_channel,
-                            upper_layout, 'Channel:')
+                            upper_layout, 'Nuclear channel:')
         number_box, self.number_text = setup_labelbox(
                         '<font color="red">Number: </font>',
                         'None')
